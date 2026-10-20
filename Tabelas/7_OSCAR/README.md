@@ -25,7 +25,7 @@ Nestes exercícios, você vai explorar o banco de dados SQL do Oscar e responder
 
 Exemplo de resposta: 
 
-R: 1430 registros
+R: 10889
 
 ```sql
 SELECT COUNT(*) FROM oscar_indicados;
@@ -37,8 +37,37 @@ Exemplo de resposta:
 
 R:
 ```ACTOR
-ACTOR IN A LEADING ROLE
-ACTOR IN A SUPPORTING ROLE
+   ANIMATED FEATURE FILM
+   ASSISTANT DIRECTOR
+   AWARD OF COMMENDATION
+   BEST PICTURE
+   BEST MOTION PICTURE
+   DANCE DIRECTION
+   DOCUMENTARY FEATURE FILM
+   DOCUMENTARY SHORT FILM
+   ENGINEERING EFFECTS
+   FILM EDITING
+   FOREIGN LANGUAGE FILM
+   FOREIGN LANGUAGE FILM
+   GORDON E. SAWYER AWARD
+   HONORARY AWARD
+   HONORARY FOREIGN LANGUAGE FILM AWARD
+   INTERNATIONAL FEATURE FILM
+   IRVING G. THALBERG MEMORIAL AWARD
+   JEAN HERSHOLT HUMANITARIAN AWARD
+   MAKEUP
+   MAKEUP AND HAIRSTYLING
+   MUSIC (Adaptation Score)
+   OUTSTANDING MOTION PICTURE
+   OUTSTANDING PICTURE
+   OUTSTANDING PRODUCTION
+   PRODUCTION DESIGN
+
+
+
+
+
+
 ...
 ```
 
@@ -48,7 +77,7 @@ SELECT DISTINCT categoria FROM oscar_indicados;
 
 **1.2.2** **Quantas** categorias únicas existem?
 
-R: 92 registros
+R: 115 registros
 
 Exemplo de resposta:
 
@@ -58,13 +87,19 @@ SELECT COUNT(DISTINCT categoria) FROM oscar_indicados;
 
 **1.3** Qual foi o primeiro ano de cerimônia do Oscar registrado na base?
 
+R: 1928
+
 **1.4** Qual foi o último ano de cerimônia registrado na base?
+
+R: 2024
 
 **1.5** Quantas cerimônias do Oscar estão registradas no total?
 
+R:96
+
 **1.6** Atualize os registros da tabela com os dados do Oscar 2025 e 2026 (pesquise os vencedores e adicione-os).
 
----
+
 
 ## Nível 2: Explorando Categorias
 
