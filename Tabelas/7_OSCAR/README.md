@@ -104,16 +104,16 @@ R:96
 ## Nível 2: Explorando Categorias
 
 **2.1** Quantas indicações existem para cada categoria? Agrupe por categoria e ordene da mais frequente para a menos frequente.
-
+R: 1 por categoria
 **2.2** Qual categoria teve mais indicações ao longo da história do Oscar?
-
+R: Directing
 **2.3** Qual categoria teve menos indicações ao longo da história?
 
 **2.4** A partir de que ano a categoria "ACTRESS" deixou de existir? (Dica: procure a última cerimônia com essa categoria)
-
+R: 1976
 **2.5** Quais categorias existiam na primeira cerimônia (1928) e não existem mais hoje?
 
-**2.6** Liste todas as categorias que contêm a palavra "DIRECTING" no nome.
+**2.6** Liste todas as categorias que contêm a palavra "DIRECTING" no 
 
 ---
 
@@ -122,9 +122,9 @@ R:96
 ### Natalie Portman
 
 **3.1** Quantas vezes Natalie Portman foi indicada ao Oscar?
-
+R: 
 **3.2** Quantos Oscars Natalie Portman ganhou?
-
+R:1 vez
 **3.3** Em quais anos e por quais filmes Natalie Portman foi indicada?
 
 **3.4** Liste todas as indicações de Natalie Portman mostrando: ano, categoria, filme e se venceu.
@@ -162,9 +162,9 @@ vencedor = true;
 ### Denzel Washington
 
 **3.10** Denzel Washington já ganhou algum Oscar?
-
+R: Ganhou 2 vezes
 **3.11** Quantas vezes Denzel Washington foi indicado ao Oscar?
-
+R: 9 vezes
 **3.12** Liste todos os Oscars que Denzel Washington ganhou (ano, categoria, filme).
 
 ---
